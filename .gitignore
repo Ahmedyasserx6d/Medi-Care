@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.local
+*.pem
+*.key
+atlas-credentials.env
+Medi-Care-OnlyAccount.txt
+ONLY-ADMIN-ACCOUNT.png
+.directory
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploaded files / runtime data
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/
+frontend/dist/
+frontend/edit.py
+frontend/edit2.py
+frontend/test_api_temp.ts
+
+# Editor / OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel / deployment local artifacts
+.vercel/
+
